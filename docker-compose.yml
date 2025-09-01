@@ -1,0 +1,44 @@
+services:
+  mc:
+    image: itzg/minecraft-server:latest
+    env_file: .env
+    ports:
+      - "25565:25565"
+    volumes:
+      - mc_data:/data
+      - ./server:/extras:ro
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      COPY_CONFIG_DEST: "/data"
+      COPY_CONFIG_DEST_IF_NEW: "true"
+      ENABLE_METRICS: "true"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "Password"  
+      RCON_PORT: "25575"
+      OVERRIDE_SERVER_PROPERTIES: "true"
+    restart: unless-stopped
+
+  rcon-web:
+    image: itzg/rcon
+    environment:
+      RWA_ENV: "TRUE"             
+      RWA_USERNAME: "admin"
+      RWA_PASSWORD: "Password"
+      RWA_ADMIN: "TRUE"
+      RWA_RCON_HOST: "mc"       
+      RWA_RCON_PORT: "25575"
+      RWA_RCON_PASSWORD: "Password"
+      RWA_GAME: "minecraft"
+      RWA_SERVER_NAME: "Local MC"
+      RWA_LOG_LEVEL: "debug"
+    ports:
+      - "4326:4326"               # öppna UI på http://localhost:4326
+      - "4327:4327"
+    depends_on:
+      mc:
+        condition: service_healthy
+
+volumes:
+  mc_data:
+
