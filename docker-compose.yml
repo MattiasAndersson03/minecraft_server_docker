@@ -30,10 +30,10 @@ services:
       RWA_RCON_PORT: "25575"
       RWA_RCON_PASSWORD: "Password"
       RWA_GAME: "minecraft"
-      RWA_SERVER_NAME: "Local MC"
+      RWA_SERVER_NAME: "Minecraft_Docker"
       RWA_LOG_LEVEL: "debug"
     ports:
-      - "4326:4326"               # öppna UI på http://localhost:4326
+      - "4326:4326"               # open ui at http://localhost:4326
       - "4327:4327"
     depends_on:
       mc:
