@@ -9,31 +9,37 @@ services:
       - ./server:/extras:ro
     environment:
       EULA: "TRUE"
-      TYPE: "PAPER"
+      TYPE: "FORGE"
       COPY_CONFIG_DEST: "/data"
       COPY_CONFIG_DEST_IF_NEW: "true"
       ENABLE_METRICS: "true"
       ENABLE_RCON: "true"
-      RCON_PASSWORD: "Password"  
+      RCON_PASSWORD: "Password" 
       RCON_PORT: "25575"
       OVERRIDE_SERVER_PROPERTIES: "true"
     restart: unless-stopped
+    
+    healthcheck:
+      test: ["CMD", "mc-health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   rcon-web:
     image: itzg/rcon
     environment:
-      RWA_ENV: "TRUE"             
+      RWA_ENV: "TRUE"
       RWA_USERNAME: "admin"
       RWA_PASSWORD: "Password"
       RWA_ADMIN: "TRUE"
-      RWA_RCON_HOST: "mc"       
+      RWA_RCON_HOST: "mc"
       RWA_RCON_PORT: "25575"
       RWA_RCON_PASSWORD: "Password"
       RWA_GAME: "minecraft"
       RWA_SERVER_NAME: "Minecraft_Docker"
       RWA_LOG_LEVEL: "debug"
     ports:
-      - "4326:4326"               # open ui at http://localhost:4326
+      - "4326:4326"
       - "4327:4327"
     depends_on:
       mc:
