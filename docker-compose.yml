@@ -44,6 +44,14 @@ services:
     depends_on:
       mc:
         condition: service_healthy
+  
+  playit:
+    image: playitgg/playit:latest
+    restart: unless-stopped
+    volumes:
+      - ./playit:/conf
+    depends_on:
+      - mc
 
 volumes:
   mc_data:
