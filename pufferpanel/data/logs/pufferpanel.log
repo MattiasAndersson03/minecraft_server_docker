@@ -1,0 +1,356 @@
+[DEBUG] 2026/02/08 23:24:59 Email template registered: addedToServer
+[DEBUG] 2026/02/08 23:24:59 Email template registered: test
+[DEBUG] 2026/02/08 23:24:59 Email template registered: accountCreation
+[DEBUG] 2026/02/08 23:24:59 Email template registered: passwordReset
+[DEBUG] 2026/02/08 23:24:59 Email template registered: recoveryCodesRegenerated
+[DEBUG] 2026/02/08 23:24:59 Email template registered: deletedServer
+[DEBUG] 2026/02/08 23:24:59 Email template registered: login
+[DEBUG] 2026/02/08 23:24:59 Email template registered: passwordChanged
+[DEBUG] 2026/02/08 23:24:59 Email template registered: otpEnabled
+[DEBUG] 2026/02/08 23:24:59 Email template registered: otpDisabled
+[DEBUG] 2026/02/08 23:24:59 Email template registered: oauthDeleted
+[DEBUG] 2026/02/08 23:24:59 Email template registered: removedFromServer
+[DEBUG] 2026/02/08 23:24:59 Email template registered: emailChanged
+[DEBUG] 2026/02/08 23:24:59 Email template registered: oauthCreated
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.092ms] [rows:0] SELECT * FROM PRAGMA_index_list("nodes")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.084ms] [rows:0] SELECT * FROM PRAGMA_index_list("servers")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.042ms] [rows:0] SELECT * FROM PRAGMA_index_list("users")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.080ms] [rows:0] SELECT * FROM PRAGMA_index_list("templates")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.071ms] [rows:0] SELECT * FROM PRAGMA_index_list("permissions")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.062ms] [rows:0] SELECT * FROM PRAGMA_index_list("clients")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.065ms] [rows:0] SELECT * FROM PRAGMA_index_list("user_settings")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.067ms] [rows:0] SELECT * FROM PRAGMA_index_list("sessions")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.066ms] [rows:0] SELECT * FROM PRAGMA_index_list("template_repos")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.053ms] [rows:0] SELECT * FROM PRAGMA_index_list("backups")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.068ms] [rows:0] SELECT * FROM PRAGMA_index_list("recovery_codes")
+
+2026/02/08 23:24:59 /build/pufferpanel/database/upgrade.go:146
+[0.075ms] [rows:0] SELECT * FROM PRAGMA_index_list("webauthn_credentials")
+[INFO] 2026/02/08 23:24:59 No admin column exists, assuming no migration needed
+[INFO] 2026/02/08 23:24:59 Generating new key
+[INFO] 2026/02/08 23:24:59 Loading existing key
+[INFO] 2026/02/08 23:24:59 Started SFTP Server on 0.0.0.0:5657
+[DEBUG] 2026/02/08 23:24:59 Found own container id b4e495ecacbd04d31924dfc6dc3ff3633c9ced23c41f2ddad5360f6f37a3de5f and host path /run/desktop/mnt/host/c/Users/Matti/Desktop/hobby_projects/minecraft_server_devops/pufferpanel/data
+[INFO] 2026/02/08 23:24:59 No server directory found, creating
+[DEBUG] 2026/02/08 23:24:59 Daemon PATH variable: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/lib/pufferpanel/binaries
+[INFO] 2026/02/08 23:24:59 Listening for HTTP requests on [::]:8080
+[INFO] 2026/02/08 23:25:19 SFTP connection from 172.18.0.1:50918
+[INFO] 2026/02/08 23:25:19 SFTP connection from 172.18.0.1:50920
+[ERROR] 2026/02/08 23:25:19 sftpd connection error: ssh: overflow reading version string
+[ERROR] 2026/02/08 23:25:20 sftpd connection error: ssh: overflow reading version string
+[INFO] 2026/02/08 23:25:20 SFTP connection from 172.18.0.1:50926
+[INFO] 2026/02/08 23:25:20 SFTP connection from 172.18.0.1:50942
+[ERROR] 2026/02/08 23:25:24 sftpd connection error: ssh: overflow reading version string
+[INFO] 2026/02/08 23:25:24 SFTP connection from 172.18.0.1:43334
+[ERROR] 2026/02/08 23:25:27 sftpd connection error: ssh: overflow reading version string
+[ERROR] 2026/02/08 23:25:28 sftpd connection error: ssh: overflow reading version string
+[INFO] 2026/02/08 23:25:28 SFTP connection from 172.18.0.1:43336
+[INFO] 2026/02/08 23:25:28 SFTP connection from 172.18.0.1:43340
+[INFO] 2026/02/08 23:26:18 Shutting down...
+[DEBUG] 2026/02/08 23:26:18 stopping http server
+[DEBUG] 2026/02/08 23:26:18 stopping sftp server
+[DEBUG] 2026/02/08 23:26:18 stopping servers
+[DEBUG] 2026/02/08 23:26:18 stopping database connections
+[DEBUG] 2026/02/08 23:26:33 Email template registered: test
+[DEBUG] 2026/02/08 23:26:33 Email template registered: passwordReset
+[DEBUG] 2026/02/08 23:26:33 Email template registered: emailChanged
+[DEBUG] 2026/02/08 23:26:33 Email template registered: otpEnabled
+[DEBUG] 2026/02/08 23:26:33 Email template registered: deletedServer
+[DEBUG] 2026/02/08 23:26:33 Email template registered: login
+[DEBUG] 2026/02/08 23:26:33 Email template registered: accountCreation
+[DEBUG] 2026/02/08 23:26:33 Email template registered: recoveryCodesRegenerated
+[DEBUG] 2026/02/08 23:26:33 Email template registered: otpDisabled
+[DEBUG] 2026/02/08 23:26:33 Email template registered: oauthCreated
+[DEBUG] 2026/02/08 23:26:33 Email template registered: passwordChanged
+[DEBUG] 2026/02/08 23:26:33 Email template registered: oauthDeleted
+[DEBUG] 2026/02/08 23:26:33 Email template registered: addedToServer
+[DEBUG] 2026/02/08 23:26:33 Email template registered: removedFromServer
+[INFO] 2026/02/08 23:26:33 Loading existing key
+[INFO] 2026/02/08 23:26:33 Started SFTP Server on 0.0.0.0:5657
+[DEBUG] 2026/02/08 23:26:34 Found own container id de3ab42f86cf32ac288aef58b68dc132eeb19748deffa31bbaf6b4c87d6d468b and host path /run/desktop/mnt/host/c/Users/Matti/Desktop/hobby_projects/minecraft_server_devops/pufferpanel/data
+[DEBUG] 2026/02/08 23:26:34 Daemon PATH variable: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/lib/pufferpanel/binaries
+[INFO] 2026/02/08 23:26:34 Listening for HTTP requests on [::]:8080
+[GIN] 2026/02/08 - 23:29:12 | 200 |     253.378µs |      172.18.0.1 | GET      "/"
+[GIN] 2026/02/08 - 23:29:12 | 200 |   16.618149ms |      172.18.0.1 | GET      "/js/index-BZEU-FQR.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     386.327µs |      172.18.0.1 | GET      "/api/config"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     197.321µs |      172.18.0.1 | GET      "/sw.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |    1.512837ms |      172.18.0.1 | GET      "/js/common-BsJTyDCx.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |   44.320832ms |      172.18.0.1 | GET      "/wasm/conditions_bg-CIp9Iax7.wasm"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     543.792µs |      172.18.0.1 | GET      "/js/env-BEFTVlbS.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |      711.42µs |      172.18.0.1 | GET      "/js/errors-D_OLDeYL.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |      83.774µs |      172.18.0.1 | GET      "/manifest.json"
+[GIN] 2026/02/08 - 23:29:13 | 200 |      682.81µs |      172.18.0.1 | GET      "/favicon.png"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     714.791µs |      172.18.0.1 | GET      "/js/files-DFs5h83N.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     575.891µs |      172.18.0.1 | GET      "/js/hotkeys-ByxsF7nq.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |       468.7µs |      172.18.0.1 | GET      "/img/appicons/144.png"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     599.948µs |      172.18.0.1 | GET      "/js/nodes-CPmOouHZ.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     529.993µs |      172.18.0.1 | GET      "/js/oauth-CqcSJBkI.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     454.098µs |      172.18.0.1 | GET      "/js/operators-D1O0-YfA.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     446.848µs |      172.18.0.1 | GET      "/js/scopes-DUGU7Uxu.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     439.862µs |      172.18.0.1 | GET      "/js/servers-D71oQg-0.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     558.625µs |      172.18.0.1 | GET      "/js/settings-Bm3retFl.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     647.033µs |      172.18.0.1 | GET      "/js/templates-BWzTBcd7.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     525.063µs |      172.18.0.1 | GET      "/js/users-CUBaideq.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |      783.19µs |      172.18.0.1 | GET      "/js/backup-DPFeIWgr.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     769.929µs |      172.18.0.1 | GET      "/js/OtpInput-DcQUgJFa.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     842.012µs |      172.18.0.1 | GET      "/js/Login-CTslEUZN.js"
+[GIN] 2026/02/08 - 23:29:13 | 200 |     542.272µs |      172.18.0.1 | GET      "/img/logo.svg"
+[GIN] 2026/02/08 - 23:29:13 | 200 |    2.453903ms |      172.18.0.1 | GET      "/fonts/Quicksand.woff2"
+[GIN] 2026/02/08 - 23:29:13 | 200 |    9.372644ms |      172.18.0.1 | GET      "/fonts/MaterialIcons.6.4.95.woff2"
+[GIN] 2026/02/08 - 23:29:13 | 200 |    1.780657ms |      172.18.0.1 | GET      "/fonts/Comfortaa.woff2"
+[GIN] 2026/02/08 - 23:29:50 | 200 |     457.526µs |      172.18.0.1 | GET      "/js/Registration-PilZLlT4.js"
+[ERROR] 2026/02/08 23:30:11 Error sending email: email not configured
+[GIN] 2026/02/08 - 23:30:11 | 200 |    57.94885ms |      172.18.0.1 | POST     "/auth/register"
+[GIN] 2026/02/08 - 23:30:11 | 200 |     536.933µs |      172.18.0.1 | GET      "/js/ServerList-D4VVTx73.js"
+[GIN] 2026/02/08 - 23:30:11 | 200 |    2.259815ms |      172.18.0.1 | GET      "/api/self"
+[GIN] 2026/02/08 - 23:30:11 | 200 |    1.877454ms |      172.18.0.1 | GET      "/fonts/Quicksand.woff2"
+[GIN] 2026/02/08 - 23:30:11 | 200 |    2.104884ms |      172.18.0.1 | GET      "/fonts/Comfortaa.woff2"
+[GIN] 2026/02/08 - 23:30:11 | 200 |    3.553456ms |      172.18.0.1 | GET      "/api/userSettings"
+[GIN] 2026/02/08 - 23:30:11 | 200 |   11.613772ms |      172.18.0.1 | GET      "/fonts/MaterialIcons.6.4.95.woff2"
+[GIN] 2026/02/08 - 23:30:11 | 200 |    3.778744ms |      172.18.0.1 | GET      "/api/servers?page=1"
+[GIN] 2026/02/08 - 23:30:11 | 200 |    2.408108ms |      172.18.0.1 | GET      "/fonts/Quicksand.woff2"
+[GIN] 2026/02/08 - 23:30:11 | 200 |    5.249329ms |      172.18.0.1 | GET      "/fonts/Comfortaa.woff2"
+[GIN] 2026/02/08 - 23:30:11 | 200 |   14.023548ms |      172.18.0.1 | GET      "/fonts/MaterialIcons.6.4.95.woff2"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     850.071µs |      172.18.0.1 | GET      "/js/ThemeSetting-R7SnjRsL.js"
+[GIN] 2026/02/08 - 23:30:20 | 200 |    1.015409ms |      172.18.0.1 | GET      "/js/Tab-BSYIHq7v.js"
+[GIN] 2026/02/08 - 23:30:20 | 200 |    1.657598ms |      172.18.0.1 | GET      "/js/Self-C3Gt-ed8.js"
+[GIN] 2026/02/08 - 23:30:20 | 200 |    3.384357ms |      172.18.0.1 | GET      "/js/Dropdown-Cra-6sYt.js"
+[GIN] 2026/02/08 - 23:30:20 | 200 |    1.632516ms |      172.18.0.1 | GET      "/js/Collapse-BY5yG7Co.js"
+[GIN] 2026/02/08 - 23:30:20 | 200 |    1.387411ms |      172.18.0.1 | GET      "/js/Toggle-47xgq5Pd.js"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     513.723µs |      172.18.0.1 | GET      "/img/flags/us.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |      20.589µs |      172.18.0.1 | GET      "/img/flags/dk.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     357.545µs |      172.18.0.1 | GET      "/img/flags/cz.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     362.349µs |      172.18.0.1 | GET      "/img/flags/sa.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |      19.131µs |      172.18.0.1 | GET      "/img/flags/de.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     926.804µs |      172.18.0.1 | GET      "/img/flags/gr.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     385.423µs |      172.18.0.1 | GET      "/img/flags/es.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     371.969µs |      172.18.0.1 | GET      "/img/flags/ee.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     364.861µs |      172.18.0.1 | GET      "/img/flags/fi.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     241.469µs |      172.18.0.1 | GET      "/img/flags/il.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     280.335µs |      172.18.0.1 | GET      "/img/flags/hu.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     349.149µs |      172.18.0.1 | GET      "/img/flags/fr.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     329.632µs |      172.18.0.1 | GET      "/img/flags/lt.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     435.252µs |      172.18.0.1 | GET      "/img/flags/nl.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |      748.97µs |      172.18.0.1 | GET      "/img/flags/it.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     499.957µs |      172.18.0.1 | GET      "/img/flags/jp.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     767.037µs |      172.18.0.1 | GET      "/img/flags/id.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     477.632µs |      172.18.0.1 | GET      "/img/flags/kr.png"
+[GIN] 2026/02/08 - 23:30:20 | 200 |     912.728µs |      172.18.0.1 | GET      "/img/flags/no.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     456.298µs |      172.18.0.1 | GET      "/img/flags/pl.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |      445.95µs |      172.18.0.1 | GET      "/img/flags/br.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     444.125µs |      172.18.0.1 | GET      "/img/flags/pt.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     632.695µs |      172.18.0.1 | GET      "/img/flags/ro.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     259.582µs |      172.18.0.1 | GET      "/img/flags/ru.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     376.733µs |      172.18.0.1 | GET      "/img/flags/sk.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     449.759µs |      172.18.0.1 | GET      "/img/flags/rs.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     499.317µs |      172.18.0.1 | GET      "/img/flags/se.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     316.238µs |      172.18.0.1 | GET      "/img/flags/tr.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     585.608µs |      172.18.0.1 | GET      "/img/flags/ua.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     592.924µs |      172.18.0.1 | GET      "/img/flags/vn.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     354.003µs |      172.18.0.1 | GET      "/img/flags/cn.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     377.849µs |      172.18.0.1 | GET      "/img/flags/hk.png"
+[GIN] 2026/02/08 - 23:30:21 | 200 |     361.975µs |      172.18.0.1 | GET      "/img/flags/tw.png"
+[GIN] 2026/02/08 - 23:30:26 | 200 |    2.654736ms |      172.18.0.1 | GET      "/api/servers?page=1"
+[GIN] 2026/02/08 - 23:31:01 | 200 |    8.885307ms |      172.18.0.1 | GET      "/api/servers?page=1"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     329.499µs |      172.18.0.1 | GET      "/"
+[GIN] 2026/02/08 - 23:32:17 | 200 |   15.310679ms |      172.18.0.1 | GET      "/js/index-BZEU-FQR.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     332.485µs |      172.18.0.1 | GET      "/sw.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |      252.06µs |      172.18.0.1 | GET      "/api/config"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     497.542µs |      172.18.0.1 | GET      "/js/common-BsJTyDCx.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |    1.634058ms |      172.18.0.1 | GET      "/api/userSettings"
+[GIN] 2026/02/08 - 23:32:17 | 200 |   33.302348ms |      172.18.0.1 | GET      "/wasm/conditions_bg-CIp9Iax7.wasm"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     485.559µs |      172.18.0.1 | GET      "/js/env-BEFTVlbS.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     699.882µs |      172.18.0.1 | GET      "/js/errors-D_OLDeYL.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |      43.945µs |      172.18.0.1 | GET      "/manifest.json"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     529.407µs |      172.18.0.1 | GET      "/js/files-DFs5h83N.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     528.348µs |      172.18.0.1 | GET      "/img/appicons/144.png"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     568.255µs |      172.18.0.1 | GET      "/js/hotkeys-ByxsF7nq.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     473.417µs |      172.18.0.1 | GET      "/js/nodes-CPmOouHZ.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     454.451µs |      172.18.0.1 | GET      "/js/oauth-CqcSJBkI.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |       359.7µs |      172.18.0.1 | GET      "/js/operators-D1O0-YfA.js"
+[GIN] 2026/02/08 - 23:32:17 | 200 |     457.115µs |      172.18.0.1 | GET      "/js/scopes-DUGU7Uxu.js"
+[GIN] 2026/02/08 - 23:32:18 | 200 |     408.245µs |      172.18.0.1 | GET      "/js/servers-D71oQg-0.js"
+[GIN] 2026/02/08 - 23:32:18 | 200 |     485.279µs |      172.18.0.1 | GET      "/js/settings-Bm3retFl.js"
+[GIN] 2026/02/08 - 23:32:18 | 200 |     428.551µs |      172.18.0.1 | GET      "/js/templates-BWzTBcd7.js"
+[GIN] 2026/02/08 - 23:32:18 | 200 |      521.79µs |      172.18.0.1 | GET      "/js/users-CUBaideq.js"
+[GIN] 2026/02/08 - 23:32:18 | 200 |      402.82µs |      172.18.0.1 | GET      "/js/backup-DPFeIWgr.js"
+[GIN] 2026/02/08 - 23:32:18 | 200 |    1.487429ms |      172.18.0.1 | GET      "/api/self"
+[GIN] 2026/02/08 - 23:32:18 | 200 |     649.114µs |      172.18.0.1 | GET      "/js/ServerList-D4VVTx73.js"
+[GIN] 2026/02/08 - 23:32:18 | 200 |     631.683µs |      172.18.0.1 | GET      "/img/logo.svg"
+[GIN] 2026/02/08 - 23:32:18 | 200 |    1.675898ms |      172.18.0.1 | GET      "/api/self"
+[GIN] 2026/02/08 - 23:32:18 | 200 |    2.073321ms |      172.18.0.1 | GET      "/fonts/Quicksand.woff2"
+[GIN] 2026/02/08 - 23:32:18 | 200 |    9.610116ms |      172.18.0.1 | GET      "/fonts/MaterialIcons.6.4.95.woff2"
+[GIN] 2026/02/08 - 23:32:18 | 200 |    7.014354ms |      172.18.0.1 | POST     "/auth/reauth"
+[GIN] 2026/02/08 - 23:32:18 | 200 |    4.107287ms |      172.18.0.1 | GET      "/api/servers?page=1"
+[GIN] 2026/02/08 - 23:32:18 | 200 |    2.527256ms |      172.18.0.1 | GET      "/fonts/Comfortaa.woff2"
+[INFO] 2026/02/08 23:40:38 Shutting down...
+[DEBUG] 2026/02/08 23:40:38 stopping http server
+[DEBUG] 2026/02/08 23:40:38 stopping sftp server
+[DEBUG] 2026/02/08 23:40:38 stopping servers
+[DEBUG] 2026/02/08 23:40:38 stopping database connections
+[DEBUG] 2026/02/08 23:43:23 Email template registered: accountCreation
+[DEBUG] 2026/02/08 23:43:23 Email template registered: emailChanged
+[DEBUG] 2026/02/08 23:43:23 Email template registered: oauthDeleted
+[DEBUG] 2026/02/08 23:43:23 Email template registered: addedToServer
+[DEBUG] 2026/02/08 23:43:23 Email template registered: passwordReset
+[DEBUG] 2026/02/08 23:43:23 Email template registered: recoveryCodesRegenerated
+[DEBUG] 2026/02/08 23:43:23 Email template registered: deletedServer
+[DEBUG] 2026/02/08 23:43:23 Email template registered: test
+[DEBUG] 2026/02/08 23:43:23 Email template registered: login
+[DEBUG] 2026/02/08 23:43:23 Email template registered: passwordChanged
+[DEBUG] 2026/02/08 23:43:23 Email template registered: otpEnabled
+[DEBUG] 2026/02/08 23:43:23 Email template registered: otpDisabled
+[DEBUG] 2026/02/08 23:43:23 Email template registered: oauthCreated
+[DEBUG] 2026/02/08 23:43:23 Email template registered: removedFromServer
+[INFO] 2026/02/08 23:43:24 Loading existing key
+[INFO] 2026/02/08 23:43:24 Started SFTP Server on 0.0.0.0:5657
+[DEBUG] 2026/02/08 23:43:24 Found own container id a36315ae97d10599a2570c35cea7a690168a12e7ebe658db1583aaf0ff1e697b and host path /run/desktop/mnt/host/c/Users/Matti/Desktop/hobby_projects/minecraft_server_devops/pufferpanel/data
+[DEBUG] 2026/02/08 23:43:24 Daemon PATH variable: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/lib/pufferpanel/binaries
+[INFO] 2026/02/08 23:43:24 Listening for HTTP requests on [::]:8080
+[GIN] 2026/02/08 - 23:43:49 | 200 |       328.7µs |      172.18.0.1 | GET      "/"
+[GIN] 2026/02/08 - 23:43:49 | 200 |   18.608255ms |      172.18.0.1 | GET      "/js/index-BZEU-FQR.js"
+[GIN] 2026/02/08 - 23:43:49 | 200 |     843.899µs |      172.18.0.1 | GET      "/sw.js"
+[GIN] 2026/02/08 - 23:43:49 | 200 |     393.461µs |      172.18.0.1 | GET      "/api/config"
+[GIN] 2026/02/08 - 23:43:49 | 200 |     1.06088ms |      172.18.0.1 | GET      "/js/common-BsJTyDCx.js"
+[GIN] 2026/02/08 - 23:43:49 | 200 |    6.456569ms |      172.18.0.1 | GET      "/api/userSettings"
+[GIN] 2026/02/08 - 23:43:49 | 200 |   47.097699ms |      172.18.0.1 | GET      "/wasm/conditions_bg-CIp9Iax7.wasm"
+[GIN] 2026/02/08 - 23:43:50 | 200 |      488.63µs |      172.18.0.1 | GET      "/js/env-BEFTVlbS.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |       90.43µs |      172.18.0.1 | GET      "/manifest.json"
+[GIN] 2026/02/08 - 23:43:50 | 200 |    1.773454ms |      172.18.0.1 | GET      "/js/errors-D_OLDeYL.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     590.899µs |      172.18.0.1 | GET      "/js/files-DFs5h83N.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     545.319µs |      172.18.0.1 | GET      "/img/appicons/144.png"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     522.261µs |      172.18.0.1 | GET      "/js/hotkeys-ByxsF7nq.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |      523.06µs |      172.18.0.1 | GET      "/js/nodes-CPmOouHZ.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     493.998µs |      172.18.0.1 | GET      "/js/oauth-CqcSJBkI.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |      446.29µs |      172.18.0.1 | GET      "/js/operators-D1O0-YfA.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     427.874µs |      172.18.0.1 | GET      "/js/scopes-DUGU7Uxu.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     675.748µs |      172.18.0.1 | GET      "/js/servers-D71oQg-0.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     418.432µs |      172.18.0.1 | GET      "/js/settings-Bm3retFl.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |      515.61µs |      172.18.0.1 | GET      "/js/templates-BWzTBcd7.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     459.605µs |      172.18.0.1 | GET      "/js/users-CUBaideq.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     402.214µs |      172.18.0.1 | GET      "/js/backup-DPFeIWgr.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |    2.486254ms |      172.18.0.1 | GET      "/api/self"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     594.935µs |      172.18.0.1 | GET      "/js/ServerList-D4VVTx73.js"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     2.35786ms |      172.18.0.1 | GET      "/api/self"
+[GIN] 2026/02/08 - 23:43:50 | 200 |     558.189µs |      172.18.0.1 | GET      "/img/logo.svg"
+[GIN] 2026/02/08 - 23:43:50 | 200 |    4.878666ms |      172.18.0.1 | GET      "/fonts/Quicksand.woff2"
+[GIN] 2026/02/08 - 23:43:50 | 200 |    13.23847ms |      172.18.0.1 | GET      "/fonts/MaterialIcons.6.4.95.woff2"
+[GIN] 2026/02/08 - 23:43:50 | 200 |   21.169459ms |      172.18.0.1 | POST     "/auth/reauth"
+[GIN] 2026/02/08 - 23:43:50 | 200 |    9.094904ms |      172.18.0.1 | GET      "/api/servers?page=1"
+[GIN] 2026/02/08 - 23:43:50 | 200 |    2.295623ms |      172.18.0.1 | GET      "/fonts/Comfortaa.woff2"
+[GIN] 2026/02/08 - 23:50:18 | 200 |    1.919567ms |      172.18.0.1 | GET      "/"
+[GIN] 2026/02/08 - 23:50:18 | 200 |   18.804378ms |      172.18.0.1 | GET      "/js/index-BZEU-FQR.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |      190.43µs |      172.18.0.1 | GET      "/sw.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     405.138µs |      172.18.0.1 | GET      "/api/config"
+[GIN] 2026/02/08 - 23:50:19 | 200 |    1.131674ms |      172.18.0.1 | GET      "/js/common-BsJTyDCx.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |    2.165264ms |      172.18.0.1 | GET      "/api/userSettings"
+[GIN] 2026/02/08 - 23:50:19 | 200 |   45.618677ms |      172.18.0.1 | GET      "/wasm/conditions_bg-CIp9Iax7.wasm"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     862.151µs |      172.18.0.1 | GET      "/js/env-BEFTVlbS.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |      742.93µs |      172.18.0.1 | GET      "/js/errors-D_OLDeYL.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |       90.46µs |      172.18.0.1 | GET      "/manifest.json"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     713.579µs |      172.18.0.1 | GET      "/js/files-DFs5h83N.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     693.991µs |      172.18.0.1 | GET      "/img/appicons/144.png"
+[GIN] 2026/02/08 - 23:50:19 | 200 |      1.6667ms |      172.18.0.1 | GET      "/js/hotkeys-ByxsF7nq.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |      917.95µs |      172.18.0.1 | GET      "/js/nodes-CPmOouHZ.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     571.871µs |      172.18.0.1 | GET      "/js/oauth-CqcSJBkI.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     539.485µs |      172.18.0.1 | GET      "/js/operators-D1O0-YfA.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |      516.52µs |      172.18.0.1 | GET      "/js/scopes-DUGU7Uxu.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     507.369µs |      172.18.0.1 | GET      "/js/servers-D71oQg-0.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     518.268µs |      172.18.0.1 | GET      "/js/settings-Bm3retFl.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     569.519µs |      172.18.0.1 | GET      "/js/templates-BWzTBcd7.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     563.328µs |      172.18.0.1 | GET      "/js/users-CUBaideq.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     410.089µs |      172.18.0.1 | GET      "/js/backup-DPFeIWgr.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |    1.764029ms |      172.18.0.1 | GET      "/api/self"
+[GIN] 2026/02/08 - 23:50:19 | 200 |     922.859µs |      172.18.0.1 | GET      "/js/ServerList-D4VVTx73.js"
+[GIN] 2026/02/08 - 23:50:19 | 200 |    1.953891ms |      172.18.0.1 | GET      "/api/self"
+[GIN] 2026/02/08 - 23:50:19 | 200 |      741.13µs |      172.18.0.1 | GET      "/img/logo.svg"
+[GIN] 2026/02/08 - 23:50:19 | 200 |    2.268541ms |      172.18.0.1 | GET      "/fonts/Quicksand.woff2"
+[GIN] 2026/02/08 - 23:50:19 | 200 |   10.645731ms |      172.18.0.1 | GET      "/fonts/MaterialIcons.6.4.95.woff2"
+[GIN] 2026/02/08 - 23:50:19 | 200 |    12.75395ms |      172.18.0.1 | POST     "/auth/reauth"
+[GIN] 2026/02/08 - 23:50:19 | 200 |    2.830095ms |      172.18.0.1 | GET      "/fonts/Comfortaa.woff2"
+[GIN] 2026/02/08 - 23:50:19 | 200 |   10.177291ms |      172.18.0.1 | GET      "/api/servers?page=1"
+[GIN] 2026/02/08 - 23:53:26 | 200 |      666.61µs |      172.18.0.1 | GET      "/js/Tab-BSYIHq7v.js"
+[GIN] 2026/02/08 - 23:53:26 | 200 |      989.82µs |      172.18.0.1 | GET      "/js/Self-C3Gt-ed8.js"
+[GIN] 2026/02/08 - 23:53:26 | 200 |    3.153288ms |      172.18.0.1 | GET      "/js/Dropdown-Cra-6sYt.js"
+[GIN] 2026/02/08 - 23:53:26 | 200 |    2.375888ms |      172.18.0.1 | GET      "/js/Collapse-BY5yG7Co.js"
+[GIN] 2026/02/08 - 23:53:26 | 200 |    1.968174ms |      172.18.0.1 | GET      "/js/Toggle-47xgq5Pd.js"
+[GIN] 2026/02/08 - 23:53:26 | 200 |    2.932162ms |      172.18.0.1 | GET      "/js/ThemeSetting-R7SnjRsL.js"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     556.289µs |      172.18.0.1 | GET      "/js/OtpInput-DcQUgJFa.js"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     459.861µs |      172.18.0.1 | GET      "/img/flags/us.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     388.208µs |      172.18.0.1 | GET      "/img/flags/sa.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |      86.531µs |      172.18.0.1 | GET      "/img/flags/de.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     323.171µs |      172.18.0.1 | GET      "/img/flags/cz.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     380.797µs |      172.18.0.1 | GET      "/img/flags/gr.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     521.289µs |      172.18.0.1 | GET      "/img/flags/dk.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     548.706µs |      172.18.0.1 | GET      "/img/flags/es.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     365.527µs |      172.18.0.1 | GET      "/img/flags/ee.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     525.565µs |      172.18.0.1 | GET      "/img/flags/fi.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     673.921µs |      172.18.0.1 | GET      "/img/flags/fr.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     533.787µs |      172.18.0.1 | GET      "/img/flags/il.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     382.542µs |      172.18.0.1 | GET      "/img/flags/hu.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     454.941µs |      172.18.0.1 | GET      "/img/flags/id.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     278.793µs |      172.18.0.1 | GET      "/img/flags/it.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     249.516µs |      172.18.0.1 | GET      "/img/flags/jp.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |      405.33µs |      172.18.0.1 | GET      "/img/flags/kr.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     435.571µs |      172.18.0.1 | GET      "/img/flags/lt.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |      463.17µs |      172.18.0.1 | GET      "/img/flags/nl.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     351.083µs |      172.18.0.1 | GET      "/img/flags/no.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     440.302µs |      172.18.0.1 | GET      "/img/flags/pl.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     568.515µs |      172.18.0.1 | GET      "/img/flags/pt.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     554.291µs |      172.18.0.1 | GET      "/img/flags/br.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     604.845µs |      172.18.0.1 | GET      "/img/flags/ru.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |      594.54µs |      172.18.0.1 | GET      "/img/flags/rs.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |      594.77µs |      172.18.0.1 | GET      "/img/flags/ro.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     523.225µs |      172.18.0.1 | GET      "/img/flags/sk.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     365.721µs |      172.18.0.1 | GET      "/img/flags/se.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     312.555µs |      172.18.0.1 | GET      "/img/flags/tr.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     615.359µs |      172.18.0.1 | GET      "/img/flags/vn.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     523.481µs |      172.18.0.1 | GET      "/img/flags/cn.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     645.761µs |      172.18.0.1 | GET      "/img/flags/ua.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     761.149µs |      172.18.0.1 | GET      "/img/flags/hk.png"
+[GIN] 2026/02/08 - 23:53:26 | 200 |     518.813µs |      172.18.0.1 | GET      "/img/flags/tw.png"
+[GIN] 2026/02/08 - 23:53:37 | 204 |    3.264497ms |      172.18.0.1 | PUT      "/api/userSettings/theme"
+[GIN] 2026/02/08 - 23:53:37 | 200 |    1.716052ms |      172.18.0.1 | GET      "/fonts/Quicksand.woff2"
+[GIN] 2026/02/08 - 23:53:37 | 200 |    8.673025ms |      172.18.0.1 | GET      "/fonts/MaterialIcons.6.4.95.woff2"
+[GIN] 2026/02/08 - 23:53:37 | 204 |   44.468389ms |      172.18.0.1 | PUT      "/api/userSettings/themeSettings"
+[GIN] 2026/02/08 - 23:53:41 | 204 |    2.843309ms |      172.18.0.1 | PUT      "/api/userSettings/theme"
+[GIN] 2026/02/08 - 23:53:41 | 204 |   43.562231ms |      172.18.0.1 | PUT      "/api/userSettings/themeSettings"
+[GIN] 2026/02/08 - 23:53:46 | 204 |    3.589332ms |      172.18.0.1 | PUT      "/api/userSettings/theme"
+[GIN] 2026/02/08 - 23:53:46 | 204 |   50.609179ms |      172.18.0.1 | PUT      "/api/userSettings/themeSettings"
+[GIN] 2026/02/08 - 23:53:49 | 204 |    2.676614ms |      172.18.0.1 | PUT      "/api/userSettings/theme"
+[GIN] 2026/02/08 - 23:53:49 | 204 |   47.714696ms |      172.18.0.1 | PUT      "/api/userSettings/themeSettings"
+[GIN] 2026/02/08 - 23:53:52 | 204 |    3.226641ms |      172.18.0.1 | PUT      "/api/userSettings/theme"
+[GIN] 2026/02/08 - 23:53:52 | 204 |   44.440284ms |      172.18.0.1 | PUT      "/api/userSettings/themeSettings"
+[GIN] 2026/02/08 - 23:53:54 | 204 |     3.01364ms |      172.18.0.1 | PUT      "/api/userSettings/theme"
+[GIN] 2026/02/08 - 23:53:54 | 204 |    44.26827ms |      172.18.0.1 | PUT      "/api/userSettings/themeSettings"
+[GIN] 2026/02/08 - 23:53:56 | 204 |    2.894446ms |      172.18.0.1 | PUT      "/api/userSettings/theme"
+[GIN] 2026/02/08 - 23:53:56 | 204 |   48.118946ms |      172.18.0.1 | PUT      "/api/userSettings/themeSettings"
+[GIN] 2026/02/08 - 23:53:58 | 200 |    3.294808ms |      172.18.0.1 | GET      "/api/servers?page=1"
+[GIN] 2026/02/08 - 23:53:58 | 200 |    2.275907ms |      172.18.0.1 | GET      "/fonts/Comfortaa.woff2"
+[INFO] 2026/02/09 00:01:41 Shutting down...
+[DEBUG] 2026/02/09 00:01:41 stopping http server
+[DEBUG] 2026/02/09 00:01:41 stopping sftp server
+[DEBUG] 2026/02/09 00:01:41 stopping servers
+[DEBUG] 2026/02/09 00:01:41 stopping database connections
