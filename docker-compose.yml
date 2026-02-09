@@ -14,6 +14,7 @@ services:
       TYPE: "FORGE"
       VERSION: "1.21.1"
       MEMORY: "4G"
+      MOTD: ${MOTD}
       CREATE_CONSOLE_IN_PIPE: "true"
     restart: unless-stopped
     healthcheck:
