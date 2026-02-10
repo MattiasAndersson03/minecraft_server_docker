@@ -1,1 +1,1 @@
-# 🎮 Minecraft Forge Server - Docker DevOps Setup
+# Minecraft Forge Server - Docker DevOps Setup
